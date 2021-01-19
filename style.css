@@ -3,3 +3,114 @@
 body{
    font-family: 'Montserrat',sans-serif;
 }
+
+.container{
+    padding-left: 1 rem;
+    padding : 1 rem;
+}
+
+.centerContainer{
+   max-width: 600px;
+   margin:auto;
+}
+
+.links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+hr{
+    margin: 1rem 0rem;
+}
+
+:root{
+    --primary-color : #A78BFA;
+   --secondary-color :#93C5FD;
+   --darkgrey:#6B7280;
+   --offwhite:#F3F4F6;
+}
+
+.primaryLink{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.secondaryLink{
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline-bullet
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation-bar
+{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation-bar .links {
+    color: white;
+}
+
+.navigation-bar .nav-pills{
+    text-align: right;
+}
+
+.navigation-bar .myBrand{
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.navigation-bar .active{
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-image {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.hero-heading{
+    padding-top: 1rem;
+    color:var(--darkgrey);
+    text-align: center;
+}
+.hero-span {
+    color:var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+
+}
+
+.owh{
+    background-color: var(--offwhite);
+}

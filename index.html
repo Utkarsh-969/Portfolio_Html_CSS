@@ -24,30 +24,31 @@
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till end of the page</div>
+    <div class="container">This is a fluid container and it will go till end of the page</div>
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified widh</div>
+    <div class="centerContainer">This is a centered container and it will go till the specified widh</div>
     <hr>
 
-    <h2>@links<h2>
-    <a href="google.com">Primary link</a> <a href="facebook.com">Secondary link</a>
+    <h2>@links</h2>
+    <a href="google.com" class="primaryLink">Primary link</a> <a href="facebook.com" class="secondaryLink">Secondary link</a>
     <hr>
 
     <h2>@list</h2>
     <h3>Unordered list</h3>
-    <ul>
+    <p>These lists will not have bullets</p>
+    <ul class = "list-non-bullet">
         <li>This is first one</li>
         <li>This is second one</li>
         <li>This is the third one</li>
     </ul>
     <h3>Unordered inline list</h3>
     <ul>
-        <li>This is first element</li>
-        <li>This is the second element</li>
-        <li>This is the third element</li>
+        <li class="list-inline-bullet">This is first element</li>
+        <li class="list-inline-bullet">This is the second element</li>
+        <li class="list-inline-bullet">This is the third element</li>
     </ul>
     <h3>Reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>This is first element</li>
         <li>This is the second element</li>
         <li>This is the third element</li>
@@ -55,37 +56,37 @@
     <hr>
 
     <h2>@nav bar</h2>
-    <div>#Brand</div>
-    <nav>
-        <ul>
-            <li>
-                <a href="l1.com">First hyperlink</a>
+    <nav class="navigation-bar container">
+        <div class="myBrand">#MyBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-inline-bullet">
+                <a href="l1.com" class="links active">Home</a>
             </li>
-            <li>
-                <a href="Second.com">Second hyperlink</a>
+            <li class="list-inline-bullet">
+                <a href="Second.com" class="links">Products</a>
             </li>
-            <li>
-                <a href="third.com">Third hyperlink</a>
+            <li class="list-inline-bullet">
+                <a href="third.com" class="links">About</a>
             </li>
         </ul>
     </nav>
     <hr>
 
     <h2>@header</h2>
-    <h1>
-        <img src="/images/prog.svg">
-        <h1> inside heading </h1>
+    <h1 class="hero">
+        <img src="/images/reactlogo.svg" class="hero-image">
+        <h1 class="hero-heading"> Hero the <span class="hero-span">web developer</span></h1>
     </h1>
     <hr>
 
-    <h2> Water Section</h2>
-    <section>
-        <h3>Fluid Section</h3>
+    <h2>@section</h2>
+    <section class="section">
+        <h1>Fluid Section</h1>
         <p>This is will go end to end for entire page</p>
     </section>
 
-    <section>
-        <h3>Off Color Section</h3>
+    <section class="section owh">
+        <h1>Off Color Section</h1>
         <p>This is will go end to end for entire page</p>
     </section>
     <hr>
