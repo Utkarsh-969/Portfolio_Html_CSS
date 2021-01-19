@@ -18,6 +18,7 @@ body{
 .links{
     text-decoration: none;
     padding: 0.5rem 1rem;
+ 
 }
 
 hr{
@@ -29,6 +30,7 @@ hr{
    --secondary-color :#93C5FD;
    --darkgrey:#6B7280;
    --offwhite:#F3F4F6;
+
 }
 
 .primaryLink{
@@ -64,6 +66,7 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .navigation-bar .links {
@@ -85,7 +88,11 @@ hr{
 }
 
 .hero{
-    padding: 2rem;
+    padding: 4rem;
+}
+
+.heroProject{
+    padding: 0.5rem;
 }
 
 .hero-image {
@@ -132,4 +139,13 @@ hr{
 
 .footer li{
     padding-inline-start: 0px;
+}
+
+.footer .footer-div {
+    font-weight: bold;
+    font-size: large;
+}
+ 
+.centerContainer .spaces {
+    padding-bottom: 0.75rem;
 }

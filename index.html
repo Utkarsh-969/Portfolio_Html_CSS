@@ -1,121 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Componenent Page</title>
+    <title>Developer Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/style.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <div>
-        <h1>Utkarsh's Componenent library</h1>
-    </div>
-    <p> I am doing bootcamp and i want to make a library which would make all my project look good and consistent </p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is biggest heading</h1>
-    <h2>This is second biggest heading</h2>
-    <p>This paragraph is heaving a <strong> bold </strong> text</p>
-    <small>This is relatively small text</small>
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till end of the page</div>
-    <h3>center container</h3>
-    <div class="centerContainer">This is a centered container and it will go till the specified widh</div>
-    <hr>
-
-    <h2>@links</h2>
-    <a href="google.com" class="primaryLink">Primary link</a> <a href="facebook.com" class="secondaryLink">Secondary link</a>
-    <hr>
-
-    <h2>@list</h2>
-    <h3>Unordered list</h3>
-    <p>These lists will not have bullets</p>
-    <ul class = "list-non-bullet">
-        <li>This is first one</li>
-        <li>This is second one</li>
-        <li>This is the third one</li>
-    </ul>
-    <h3>Unordered inline list</h3>
-    <ul>
-        <li class="list-inline-bullet">This is first element</li>
-        <li class="list-inline-bullet">This is the second element</li>
-        <li class="list-inline-bullet">This is the third element</li>
-    </ul>
-    <h3>Reverse ordered list</h3>
-    <ol reversed>
-        <li>This is first element</li>
-        <li>This is the second element</li>
-        <li>This is the third element</li>
-    </ol>
-    <hr>
-
-    <h2>@nav bar</h2>
     <nav class="navigation-bar container">
-        <div class="myBrand">#MyBrand</div>
+        <div class="myBrand">#IAMDeveloper</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline-bullet">
-                <a href="l1.com" class="links active">Home</a>
+                <a href="/" class="links active">Home</a>
             </li>
             <li class="list-inline-bullet">
-                <a href="Second.com" class="links">Products</a>
+                <a href="/projects.html" class="links">Projects</a>
             </li>
             <li class="list-inline-bullet">
-                <a href="third.com" class="links">About</a>
+                <a href="/blogs.html" class="links">Blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-
-    <h2>@header</h2>
     <h1 class="hero">
         <img src="/images/reactlogo.svg" class="hero-image">
-        <h1 class="hero-heading"> Hero the <span class="hero-span">web developer</span></h1>
+        <h1 class="hero-heading"> Me the <span class="hero-span">web developer</span></h1>
     </h1>
-    <hr>
 
-    <h2>@section</h2>
+    <section class="section owh">
+        <div class="centerContainer">
+        <h1>Technologies Worked Upon</h1>
+            <p>We are an open community of developers building resources for 
+                a better Web, regardless of brand, browser, or platform. Anyone can contribute and each 
+                person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the
+                 greater good. It starts here, with you.</p>
+        </div>
+    </section>
+
     <section class="section">
         <div class="centerContainer">
-        <h1>Fluid Section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-        </div>
+        <h1>Projects Made</h1>
+        <div class="spaces">
+            <p>We are an open community of developers building resources for a better Web, 
+                regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger.
+                 Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>  
+        </div>  
+                 <a href="google.com" class="primaryLink">See Projects</a>                         
+            </div>
     </section>
 
     <section class="section owh">
         <div class="centerContainer">
-        <h1>Off Color Section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        <h1>Blogs</h1>
+        <div class="spaces">
+            <p>We are an open community of developers building resources for 
+                a better Web, regardless of brand, browser, or platform. Anyone can contribute and each 
+                person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the
+                 greater good. It starts here, with you.</p>
+        </div>  
+                 <a href="facebook.com" class="secondaryLink">Read Blogs</a>
+                 
         </div>
     </section>
-    <hr>
 
-    <h2>@footer</h2>
     <footer class="footer container">
         <div class="footer-div">
-            Small small links inside footer
+            Social Media Presence
             <ul class="class-footer-ul">
                 <li class="list-inline-bullet">
-                    <a href="xyz.com" class="links">Instagram</a>
+                    <a href="https://github.com/Utkarsh-969" class="links">Github</a>
+                </li>
+                <li class="list-inline-bullet">
+                    <a href="https://www.linkedin.com/in/ut00karsh/" class="links">LinkedIn</a>
                 </li>
                 <li class="list-inline-bullet">
                     <a href="xyz.com" class="links">Twitter</a>
                 </li>
-                <li class="list-inline-bullet">
-                    <a href="xyz.com" class="links">Facebook</a>
-                </li>
-                <li class="list-inline-bullet">
-                    <a href="xyz.com" class="links">Google</a>
-                </li>
             </ul>
         </div>
     </footer>
-
 
 </body>
 </html>
